@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.22000.0</SupportedOSPlatformVersion>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MagicMouseSwitch.Tray</AssemblyName>
+    <ApplicationIcon>Assets\MagicMouseSwitch.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>Magic Mouse Switch</Product>
+    <Company>Ranveer Rai</Company>
+    <Authors>Ranveer Rai</Authors>
+    <AssemblyTitle>Magic Mouse Switch — Windows tray Bluetooth connection utility</AssemblyTitle>
+    <Description>Safely connects or removes Ranveer's Magic Mouse from the Windows system tray.</Description>
+    <Copyright>Copyright © 2026 Ranveer Rai</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MagicMouseSwitch.Cli\MagicMouseSwitch.Cli.csproj"
+                      AdditionalProperties="OutputType=Library;BuildingTray=true" />
+  </ItemGroup>
+</Project>
