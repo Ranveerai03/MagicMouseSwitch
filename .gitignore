@@ -7,3 +7,11 @@ obj/
 *.pdb
 *.log
 release/
+
+# macOS metadata
+.DS_Store
+
+# Swift Package Manager build output and local workspace state
+.build/
+.swiftpm/
+macos/.build/
