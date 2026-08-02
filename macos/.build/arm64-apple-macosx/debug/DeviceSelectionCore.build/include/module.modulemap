@@ -1,0 +1,3 @@
+module DeviceSelectionCore {
+    header "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/include/DeviceSelectionCore-Swift.h"
+}

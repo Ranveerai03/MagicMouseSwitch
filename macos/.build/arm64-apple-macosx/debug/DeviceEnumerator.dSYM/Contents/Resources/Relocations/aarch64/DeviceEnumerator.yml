@@ -1,0 +1,27 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator'
+relocations:
+  - { offset: 0xA1E87, size: 0x8, addend: 0x0, symName: _DeviceEnumerator_main, symObjAddr: 0x0, symBinAddr: 0x100000C90, symSize: 0xFE4 }
+  - { offset: 0xA1EAB, size: 0x8, addend: 0x0, symName: '_$s16DeviceEnumerator13pairedObjectsSayypGvp', symObjAddr: 0x3B08, symBinAddr: 0x100008080, symSize: 0x0 }
+  - { offset: 0xA1EC5, size: 0x8, addend: 0x0, symName: '_$s16DeviceEnumerator7devicesSaySo011IOBluetoothA0CGvp', symObjAddr: 0x3B10, symBinAddr: 0x100008088, symSize: 0x0 }
+  - { offset: 0xA1ED3, size: 0x8, addend: 0x0, symName: _DeviceEnumerator_main, symObjAddr: 0x0, symBinAddr: 0x100000C90, symSize: 0xFE4 }
+  - { offset: 0xA1F73, size: 0x8, addend: 0x0, symName: '_$sSayypGSgWOh', symObjAddr: 0xFE4, symBinAddr: 0x100001C74, symSize: 0x28 }
+  - { offset: 0xA1F87, size: 0x8, addend: 0x0, symName: '_$s16DeviceEnumeratorSo011IOBluetoothA0CSgypXEfU0_', symObjAddr: 0x100C, symBinAddr: 0x100001C9C, symSize: 0x108 }
+  - { offset: 0xA1FB8, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameV2, symObjAddr: 0x1114, symBinAddr: 0x100001DA4, symSize: 0x80 }
+  - { offset: 0xA1FCC, size: 0x8, addend: 0x0, symName: '_$sSo17IOBluetoothDeviceCMa', symObjAddr: 0x1194, symBinAddr: 0x100001E24, symSize: 0x60 }
+  - { offset: 0xA1FE0, size: 0x8, addend: 0x0, symName: '_$sSayypGSayxGSTsWl', symObjAddr: 0x11F4, symBinAddr: 0x100001E84, symSize: 0x74 }
+  - { offset: 0xA1FF4, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstractV2, symObjAddr: 0x1268, symBinAddr: 0x100001EF8, symSize: 0x78 }
+  - { offset: 0xA2008, size: 0x8, addend: 0x0, symName: '_$s16DeviceEnumeratorSbSo011IOBluetoothA0C_ACtXEfU1_', symObjAddr: 0x12E0, symBinAddr: 0x100001F70, symSize: 0x2EC }
+  - { offset: 0xA2047, size: 0x8, addend: 0x0, symName: '_$sSaySo17IOBluetoothDeviceCGSayxGSTsWl', symObjAddr: 0x15CC, symBinAddr: 0x10000225C, symSize: 0x74 }
+  - { offset: 0xA205B, size: 0x8, addend: 0x0, symName: '_$sSaySo17IOBluetoothDeviceCGWOh', symObjAddr: 0x1640, symBinAddr: 0x1000022D0, symSize: 0x28 }
+  - { offset: 0xA206F, size: 0x8, addend: 0x0, symName: '_$ss26DefaultStringInterpolationVWOh', symObjAddr: 0x1668, symBinAddr: 0x1000022F8, symSize: 0x28 }
+  - { offset: 0xA2083, size: 0x8, addend: 0x0, symName: '_$ss18EnumeratedSequenceV8IteratorVySaySo17IOBluetoothDeviceCG_GWOh', symObjAddr: 0x1728, symBinAddr: 0x1000023B8, symSize: 0x28 }
+  - { offset: 0xA2097, size: 0x8, addend: 0x0, symName: '_$sSSSgWOh', symObjAddr: 0x1750, symBinAddr: 0x1000023E0, symSize: 0x28 }
+  - { offset: 0xA20AB, size: 0x8, addend: 0x0, symName: '_$sSa12_endMutationyyF', symObjAddr: 0x1778, symBinAddr: 0x100002408, symSize: 0xC }
+  - { offset: 0xA20C3, size: 0x8, addend: 0x0, symName: '_$sS2cMScAsWl', symObjAddr: 0x1784, symBinAddr: 0x100002414, symSize: 0x6C }
+  - { offset: 0xA20D7, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x17F0, symBinAddr: 0x100002480, symSize: 0x44 }
+  - { offset: 0xA212F, size: 0x8, addend: 0x0, symName: '_$ss27_finalizeUninitializedArrayySayxGABnlF', symObjAddr: 0x1690, symBinAddr: 0x100002320, symSize: 0x40 }
+  - { offset: 0xA2159, size: 0x8, addend: 0x0, symName: '_$ss5print_9separator10terminatoryypd_S2StFfA0_', symObjAddr: 0x16D0, symBinAddr: 0x100002360, symSize: 0x2C }
+  - { offset: 0xA2175, size: 0x8, addend: 0x0, symName: '_$ss5print_9separator10terminatoryypd_S2StFfA1_', symObjAddr: 0x16FC, symBinAddr: 0x10000238C, symSize: 0x2C }
+...

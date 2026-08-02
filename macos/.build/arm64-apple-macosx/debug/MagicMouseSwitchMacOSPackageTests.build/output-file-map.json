@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/primary.swiftdeps"
+  },
+  "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.d",
+    "object": "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.dia"
+  }
+}

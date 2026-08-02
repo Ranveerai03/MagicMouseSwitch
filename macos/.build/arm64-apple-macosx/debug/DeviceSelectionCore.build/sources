@@ -1,0 +1,9 @@
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/BluetoothAddressNormalizer.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DeviceSelection.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DisconnectSafety.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ForgetSafety.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/GuardedMagicMouseSelection.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSafety.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSettingsContentionPolicy.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ReconnectSafety.swift
+/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/SystemSettingsWindowAcquisition.swift

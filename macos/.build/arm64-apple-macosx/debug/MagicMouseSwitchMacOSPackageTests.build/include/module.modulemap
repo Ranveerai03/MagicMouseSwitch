@@ -1,0 +1,3 @@
+module MagicMouseSwitchMacOSPackageTests {
+    header "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/include/MagicMouseSwitchMacOSPackageTests-Swift.h"
+}

@@ -1,0 +1,2930 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.xctest/Contents/MacOS/MagicMouseSwitchMacOSPackageTests",
+      "packagePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos",
+      "productName" : "MagicMouseSwitchMacOSPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.DeviceDisconnect-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceDisconnect/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DeviceDisconnect",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceDisconnect.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DeviceDisconnect_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceDisconnect.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceDisconnect/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DeviceEnumerator-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceEnumerator/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DeviceEnumerator",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceEnumerator.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DeviceEnumerator_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceEnumerator.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceEnumerator/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DeviceForget-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceForget/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchServices.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DeviceForget",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceForget.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DeviceForget_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceForget.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceForget/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DevicePair-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DevicePair/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchServices.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DevicePair",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DevicePair.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DevicePair_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DevicePair.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DevicePair/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DeviceReconnect-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceReconnect/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DeviceReconnect",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceReconnect.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DeviceReconnect_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceReconnect.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceReconnect/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DeviceSelectionCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/BluetoothAddressNormalizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DeviceSelection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DisconnectSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ForgetSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/GuardedMagicMouseSelection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSettingsContentionPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ReconnectSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/SystemSettingsWindowAcquisition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DeviceSelectionCore",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/include/DeviceSelectionCore-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/BluetoothAddressNormalizer.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DeviceSelection.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DisconnectSafety.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ForgetSafety.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/GuardedMagicMouseSelection.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSafety.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSettingsContentionPolicy.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ReconnectSafety.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/SystemSettingsWindowAcquisition.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DeviceSelectionCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DeviceSelectionCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DisconnectSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ForgetSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/MenuBarOperationPolicyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairInquiryLifecycleTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSettingsContentionPolicyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ReconnectSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/SystemSettingsWindowAcquisitionTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchServices.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "DeviceSelectionCoreTests",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/DeviceSelectionCoreTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/DisconnectSafetyTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/ForgetSafetyTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/MenuBarOperationPolicyTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairInquiryLifecycleTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairSafetyTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairSettingsContentionPolicyTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/ReconnectSafetyTests.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/SystemSettingsWindowAcquisitionTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/DeviceSelectionCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/DisconnectSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/ForgetSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/MenuBarOperationPolicyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairInquiryLifecycleTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairSettingsContentionPolicyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/ReconnectSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/SystemSettingsWindowAcquisitionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DeviceSelectionCoreTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DisconnectSafetyTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ForgetSafetyTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/MenuBarOperationPolicyTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairInquiryLifecycleTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSafetyTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSettingsContentionPolicyTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ReconnectSafetyTests.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/SystemSettingsWindowAcquisitionTests.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.DeviceSelector-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelector/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "DeviceSelector",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelector.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "DeviceSelector_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelector.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelector/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MagicMouseSwitchMac-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/AppLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/GlobalHotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/StatusPopup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchServices.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MagicMouseSwitchMac",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchMac.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/AppLogger.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/GlobalHotKey.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/StatusPopup.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MagicMouseSwitchMac_main",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/AppLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/GlobalHotKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/StatusPopup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchMac.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/AppLogger.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/GlobalHotKey.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/StatusPopup.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/main.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MagicMouseSwitchMacOSPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MagicMouseSwitchMacOSPackageTests",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchMacOSPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/include/MagicMouseSwitchMacOSPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchMacOSPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MagicMouseSwitchServices-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/sources",
+      "importPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/ForgetService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MagicMouseServices.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MenuBarPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairSystemSettingsPreflight.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/DeviceSelectionCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MagicMouseSwitchServices",
+      "moduleOutputPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchServices.swiftmodule",
+      "objects" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/ForgetService.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MagicMouseServices.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MenuBarPolicy.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairService.swift.o",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairSystemSettingsPreflight.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/include/MagicMouseSwitchServices-Swift.h",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-warnings-as-errors",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos"
+      ],
+      "outputFileMapPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/ForgetService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MagicMouseServices.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MenuBarPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairSystemSettingsPreflight.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules/MagicMouseSwitchServices.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/ForgetService.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MagicMouseServices.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MenuBarPolicy.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairService.swift",
+        "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairSystemSettingsPreflight.swift"
+      ],
+      "tempsPath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "DeviceDisconnect" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceDisconnect",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceDisconnect/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DeviceDisconnect_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DeviceEnumerator" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceEnumerator",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceEnumerator/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DeviceEnumerator_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DeviceForget" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceForget",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceForget/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DeviceForget_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DevicePair" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DevicePair",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DevicePair/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DevicePair_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DeviceReconnect" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceReconnect",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceReconnect/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DeviceReconnect_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DeviceSelectionCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceSelectionCore",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/BluetoothAddressNormalizer.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DeviceSelection.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DisconnectSafety.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ForgetSafety.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/GuardedMagicMouseSelection.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSafety.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSettingsContentionPolicy.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ReconnectSafety.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/SystemSettingsWindowAcquisition.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/include/DeviceSelectionCore-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DeviceSelectionCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceSelectionCoreTests",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DeviceSelectionCoreTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DisconnectSafetyTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ForgetSafetyTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/MenuBarOperationPolicyTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairInquiryLifecycleTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSafetyTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSettingsContentionPolicyTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ReconnectSafetyTests.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/SystemSettingsWindowAcquisitionTests.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "DeviceSelector" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "DeviceSelector",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelector/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "DeviceSelector_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MagicMouseSwitchMac" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MagicMouseSwitchMac",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/AppLogger.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/GlobalHotKey.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/StatusPopup.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/main.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MagicMouseSwitchMac_main",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MagicMouseSwitchMacOSPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MagicMouseSwitchMacOSPackageTests",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/include/MagicMouseSwitchMacOSPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MagicMouseSwitchServices" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MagicMouseSwitchServices",
+      "-package-name",
+      "macos",
+      "-c",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/ForgetService.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MagicMouseServices.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MenuBarPolicy.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairService.swift",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairSystemSettingsPreflight.swift",
+      "-I",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/include/MagicMouseSwitchServices-Swift.h",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-warnings-as-errors",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "DeviceDisconnect" : [
+      "DeviceSelectionCore"
+    ],
+    "DeviceEnumerator" : [
+
+    ],
+    "DeviceForget" : [
+      "MagicMouseSwitchServices",
+      "DeviceSelectionCore"
+    ],
+    "DevicePair" : [
+      "MagicMouseSwitchServices",
+      "DeviceSelectionCore"
+    ],
+    "DeviceReconnect" : [
+      "DeviceSelectionCore"
+    ],
+    "DeviceSelectionCore" : [
+
+    ],
+    "DeviceSelectionCoreTests" : [
+      "MagicMouseSwitchServices",
+      "DeviceSelectionCore"
+    ],
+    "DeviceSelector" : [
+      "DeviceSelectionCore"
+    ],
+    "MagicMouseSwitchMac" : [
+      "MagicMouseSwitchServices",
+      "DeviceSelectionCore"
+    ],
+    "MagicMouseSwitchMacOSPackageTests" : [
+      "DeviceSelectionCoreTests",
+      "MagicMouseSwitchServices",
+      "DeviceSelectionCore"
+    ],
+    "MagicMouseSwitchServices" : [
+      "DeviceSelectionCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceDisconnect/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceDisconnect.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceEnumerator/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceEnumerator.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceForget/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/ForgetService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MagicMouseServices.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MenuBarPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairSystemSettingsPreflight.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceForget.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DevicePair/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/ForgetService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MagicMouseServices.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MenuBarPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairSystemSettingsPreflight.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DevicePair.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceReconnect/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceReconnect.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/BluetoothAddressNormalizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DeviceSelection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/DisconnectSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ForgetSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/GuardedMagicMouseSelection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/PairSettingsContentionPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/ReconnectSafety.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCore/SystemSettingsWindowAcquisition.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DeviceSelectionCoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/DisconnectSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ForgetSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/MenuBarOperationPolicyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairInquiryLifecycleTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/PairSettingsContentionPolicyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/ReconnectSafetyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelectionCoreTests/SystemSettingsWindowAcquisitionTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/DeviceSelector/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelector.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac-entitlement.plist"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/AppLogger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/GlobalHotKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/StatusPopup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchMac/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/AppLogger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/GlobalHotKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/StatusPopup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/ForgetService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MagicMouseServices.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MenuBarPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairSystemSettingsPreflight.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMac.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/BluetoothAddressNormalizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DeviceSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/DisconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ForgetSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/GuardedMagicMouseSelection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/PairSettingsContentionPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/ReconnectSafety.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCore.build/SystemSettingsWindowAcquisition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/DeviceSelectionCoreTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/DisconnectSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/ForgetSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/MenuBarOperationPolicyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairInquiryLifecycleTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/PairSettingsContentionPolicyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/ReconnectSafetyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/DeviceSelectionCoreTests.build/SystemSettingsWindowAcquisitionTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/ForgetService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MagicMouseServices.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/MenuBarPolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/PairSystemSettingsPreflight.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchMacOSPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/ForgetService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MagicMouseServices.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/MenuBarPolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/MagicMouseSwitchServices/PairSystemSettingsPreflight.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/MagicMouseSwitchServices.build/sources"
+    },
+    "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ranveerrai/Developer/MagicMouseSwitch/macos/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
